@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Imagens</h1>
+    <div class="gallery">
+        <img src="https://static.fatimaesportes.com.br/public/fatimaesportes/imagens/produtos/camisa-umbro-gremio-oficial-1-2023-n9-masculino-64ef8a0c0d4e1.png" alt="Imagem 1">
+        <img src="https://cdnv2.moovin.com.br/casavivars/imagens/produtos/det/camisa-umbro-gremio-iii-2022-n-9-suarez-masculina-2685444f6f79651e3186288b13e3a38a.jpeg" alt="Imagem 2">
+        <img src="https://cdnv2.moovin.com.br/atitudeesportes/imagens/produtos/det/camisa-umbro-gremio-2-masculina-2024-torcedor-cn-6a2b9b53e97fce09b61fdf952faefdf0.jpg" alt="Imagem 3">
+        <img src="https://umbro.vtexassets.com/arquivos/ids/474534/U31G03199_132.jpg?v=638618340291200000" alt="Imagem 4">
+        <img src="https://cdnv2.moovin.com.br/kenpo/imagens/produtos/det/camisa-umbro-goleiro-gremio-oficial-2023-masculino-azul-marinho-1c1a55884ec451cec2ffd81201264893.jpg" alt="Imagem 5">
+        <img src="https://images.tcdn.com.br/img/img_prod/1303097/camisa_umbro_gremio_aquecimento_2024_59907_2_9a6b1d6d9153b849412bce54c26a29b0.jpg" alt="Imagem 6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIRIAzjKUvQR9Qpd35tUWBahZJgCnijriXco3cAQT6_dxDDfvYIGWTU-QUHWfSGSWkxpM&usqp=CAU" alt="Imagem 7">
+    </div>
+</body>
+</html>
