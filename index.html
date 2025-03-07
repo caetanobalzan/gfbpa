@@ -36,6 +36,26 @@
         h1 {
             color: #333;
             margin-top: 20px;
+
+            .trofeus {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            width: 80%;
+            max-width: 1200px;
+        }
+        .trofeus img {
+            width: calc(50% - 10px); /* Divide a largura em 2 e subtrai o gap */
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .trofeus img:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -49,6 +69,16 @@
         <img src="https://cdnv2.moovin.com.br/kenpo/imagens/produtos/det/camisa-umbro-goleiro-gremio-oficial-2023-masculino-azul-marinho-1c1a55884ec451cec2ffd81201264893.jpg" alt="Imagem 5">
         <img src="https://images.tcdn.com.br/img/img_prod/1303097/camisa_umbro_gremio_aquecimento_2024_59907_2_9a6b1d6d9153b849412bce54c26a29b0.jpg" alt="Imagem 6">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIRIAzjKUvQR9Qpd35tUWBahZJgCnijriXco3cAQT6_dxDDfvYIGWTU-QUHWfSGSWkxpM&usqp=CAU" alt="Imagem 7">
+    </div>
+
+
+
+    <h1>Trofeus</h1>
+    <div class="trofeus">
+        <img src="trofeu1.jpg" alt="Troféu 1">
+        <img src="trofeu2.jpg" alt="Troféu 2">
+        <img src="trofeu3.jpg" alt="Troféu 3">
+        <img src="trofeu4.jpg" alt="Troféu 4">
     </div>
 </body>
 </html>
