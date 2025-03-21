@@ -4,69 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Camisetas</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-            padding: 20px;
-        }
-        .gallery img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-        }
-        .gallery img:hover {
-            transform: scale(1.1);
-        }
-        h1 {
-            color: #333;
-            margin-top: 20px;
-
-            .trofeus {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
-            width: 80%;
-            max-width: 1200px;
-        }
-        .trofeus .image-container {
-            width: calc(50% - 10px); /* Divide a largura em 2 e subtrai o gap */
-            position: relative;
-            padding-bottom: 50%; /* Proporção 1:1 (quadrado) */
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .trofeus img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Garante que a imagem cubra o contêiner */
-            transition: transform 0.3s ease;
-        }
-        .trofeus img:hover {
-            transform: scale(1.05);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Galeria de Imagens</h1>
@@ -79,8 +17,6 @@
         <img src="https://images.tcdn.com.br/img/img_prod/1303097/camisa_umbro_gremio_aquecimento_2024_59907_2_9a6b1d6d9153b849412bce54c26a29b0.jpg" alt="Imagem 6">
     </div>
 
-
-
     <h1>Trofeus</h1>
     <div class="trofeus">
         <div class="image-container">
@@ -91,4 +27,5 @@
         </div>
     </div>
 </body>
+<div class="rodapesuper"></div>
 </html>
